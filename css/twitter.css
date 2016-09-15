@@ -1,0 +1,148 @@
+html {
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Lucida Grande";
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #10A364;
+  border-bottom: 1px solid #848484;
+  border-top: 1px solid #848484;
+  color: #FFFFFF;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  display:inline;
+}
+
+header ul {
+  margin-right: 20px;
+}
+
+.hometitle {
+  font-size: 27px;
+  margin-top:15px;
+  margin-bottom: 15px;
+  margin-left:15px;
+  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom:6px;
+  padding-left: 15px;
+  padding-right:15px;
+  font-weight:600;
+}
+
+button {
+  background-color: #069456;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top:13px;
+  margin-bottom: 13px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right:15px;
+  border-radius: 5px;
+  border: 2px solid #08834E;
+  font-weight:700;
+}
+
+body {
+  background-color:#F1F0F5;
+}
+
+main {
+  display: block-inline;
+  text-align: left;
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEF1;
+  box-shadow: 5px 5px 10px #EEEEF1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+  max-width: auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right:30px;
+  border-bottom: 1px;
+  border-radius: 10px;
+  line-height: 115%;
+}
+
+textarea {
+    width:100%;
+    height:100%;
+}
+
+.what-happening{
+  display:flex;
+}
+
+.textarea {
+  position:relative;
+}
+
+.character-length {
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+.profile-image{
+  flex:1;
+  display: inline-block;
+}
+
+main img {
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.text-column{
+  flex:7;
+}
+
+.submissions{
+  display:flex;
+  position:relative;
+}
+
+.all-submissions{
+  display:flex;
+}
+
+.like-button {
+}
+
+.textbox {
+  display:inline;
+}
+
+footer {
+  margin-top: 15px;
+  padding-top: 20px;
+  text-align: center;
+  color: #B4B4B4;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 14px;
+}
+
+footer li {
+  display: inline;
+}
+
+.footer-list{
+  padding-left:30px;
+}
