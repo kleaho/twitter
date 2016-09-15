@@ -64,13 +64,13 @@ main {
   background-color: #FFFFFF;
   border: 1px solid #EEEEF1;
   box-shadow: 5px 5px 10px #EEEEF1;
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 40px;
   margin-left: 75px;
   margin-right: 75px;
   max-width: auto;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right:30px;
   border-bottom: 1px;
@@ -115,6 +115,7 @@ textarea {
 main img {
   width: 85%;
   border-radius: 10px;
+  max-height:70px;
 
 }
 
@@ -145,6 +146,13 @@ main button {
 
 .all-submissions{
   display:flex;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 140%;
+  font-size: 16px;
+
+
 }
 
 .like-button {
