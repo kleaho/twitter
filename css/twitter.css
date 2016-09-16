@@ -59,7 +59,6 @@ body {
 }
 
 main {
-  display: block-inline;
   text-align: left;
   background-color: #FFFFFF;
   border: 1px solid #EEEEF1;
@@ -68,8 +67,7 @@ main {
   margin-bottom: 40px;
   margin-left: 75px;
   margin-right: 75px;
-  max-width: auto;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   padding-top: 20px;
   padding-left: 30px;
   padding-right:30px;
@@ -147,15 +145,29 @@ main button {
 .all-submissions{
   display:flex;
   margin-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom:23px;
   border-bottom: 1px solid #CCCCCC;
-  line-height: 140%;
+  line-height: 150%;
   font-size: 16px;
+}
 
-
+.last-all-submissions{
+  display:flex;
+  margin-top: 15px;
+  padding-bottom:23px;
+  line-height: 150%;
+  font-size: 16px;
 }
 
 .like-button {
+  color: #069456;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.num-likes {
+  color: #CDCDCD;
+  font-size: 14px;
 }
 
 .textbox {
