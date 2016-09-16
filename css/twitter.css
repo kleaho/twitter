@@ -16,6 +16,7 @@ header {
   display:flex;
   justify-content: space-between;
   align-items: center;
+  background-image: linear-gradient(180deg, rgb(95, 193, 134), rgb(66,147,94));
 }
 
 header li {
