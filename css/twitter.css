@@ -108,12 +108,14 @@ textarea {
 .profile-image{
   flex:1;
   display: inline-block;
+  max-width: 80px;
 }
 
 main img {
   width: 85%;
   border-radius: 10px;
   max-height:70px;
+  max-width: 80px;
 
 }
 
